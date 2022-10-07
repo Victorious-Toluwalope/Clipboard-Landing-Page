@@ -1,0 +1,125 @@
+body {
+      font-family: 'Bai Jamjuree';
+      font-size: 18px;
+      background-image: url(./images/bg-header-desktop.png);
+      background-size: cover;
+      padding-top: 5em;
+
+}
+header,
+.align-section {
+      text-align: center;
+}
+header img {
+      height: 5em;
+      width: 5em;
+}
+h1,
+h2,
+h3 {
+      color: hsl(210, 10%, 33%);
+}
+p {
+      color: hsl(201, 11%, 66%);
+}
+header button,
+.section-clipboard button {
+      height: 3rem;
+      width: 12rem;
+      margin: 2em 0.5em;
+      border-radius: 30px;
+      border: none;
+      color: white;
+      font-size: 17px;
+}
+button:hover {
+      cursor: pointer;
+}
+header p,
+.description p,
+.section-clipboard p{
+      padding: 1em 30em;
+}
+.button1 {
+      background-color: hsl(171, 66%, 44%);
+}
+.button1:hover {
+      background-color: hsl(171, 87%, 61%);
+}
+.button2 {
+      background-color: hsl(233, 100%, 69%);
+}
+.button2:hover {
+      background-color: hsl(233, 100%, 80%);
+}
+.description {
+      margin-top: 6em;
+      margin-bottom: 2em;
+}
+.section1 {
+      display: flex;
+}
+.section1 img {
+      height: 25em;
+      width: 45em;
+}
+#section1-div2 {
+      margin-left: 7em;
+      margin-top: 2em;
+}
+#section1-div2 p {
+      padding: 0.1em 22em 0.1em 0em;
+}
+.section2 {
+      margin: 3em 0;
+}
+.section2 img {
+      height: 30em;
+      width: 40em;
+}
+.section3{
+      display: flex;
+      margin: 1em 5em;
+}
+.section3 div {
+      padding: 1em 3em;
+}
+.section4 {
+      display: flex;
+}
+.section4 div {
+      padding: 1em 5em;
+}
+footer {
+      display: flex;
+      margin-top: 5em;
+      height: 6em;
+      background-color: hsl(220, 6%, 90%);
+      padding: 1em 2em;
+}
+footer img {
+      height: 3em;
+      width: 3em;
+      padding: 1em 2em;
+}
+footer p {
+      color: black;
+}
+footer p:hover {
+      cursor: pointer;
+      color: hsl(171, 66%, 44%);
+}
+footer div {
+      padding-left: 5em;
+}
+#footer-icons {
+      margin-left: auto;
+}
+#footer-icons img {
+      height: 2em;
+      width: 2em;
+}
+#footer-icons img:hover {
+      cursor: pointer;
+      color: hsl(171, 66%, 44%);
+}
